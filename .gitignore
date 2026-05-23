@@ -1,0 +1,18 @@
+# Python
+pycache/
+*.pyc
+*.ipynb_checkpoints/
+.env
+venv/
+*.egg-info/
+
+# Data & DVC
+data/*.csv
+data/*.parquet
+*.dvc.lock
+.dvc/cache/
+local_storage/
+
+# IDE
+.vscode/
+.idea/
